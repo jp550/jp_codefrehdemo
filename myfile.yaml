@@ -20,7 +20,6 @@ steps:
     stage: "clone"
   
   build:
-    BuildingDockerImage:
     title: Building Docker Image
     type: build
     image_name: alpine/jp_codefrehdemo
